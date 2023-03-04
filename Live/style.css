@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Nasa;
+  src: url(./fonts/nasalization-rg.otf);
+}
+body,a,p,h1,h3,footer{
+  font-family: Nasa;
+}
+
+body{
+    background: url("img/mattia-silva-render-03.jpeg") no-repeat #000;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+header{
+  background-image: url(./img/mattia-silva-render-03.jpeg);
+  background-repeat:no-repeat;
+  position: relative;
+}
+.nav-link{
+  font-size: 1.3rem;
+  border-radius: 5px;
+  transition: all .5s ease;
+}
+.nav-link:hover{
+  background-color: #0B3D91;
+  color: white;
+  transition: all .5s ease;
+}
+.title{
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration:underline;
+}
+  .bg-moon{
+    background-image: url(img/mac-rebisz-20141020-regolith-mining.jpeg);
+    background-size: cover;
+    height: 20rem;
+    position:absolute;
+  }
+  
+  .container{
+    border-radius: 40px;
+    position: relative;
+  }
+  #particles-js {
+    position:fixed;
+    width: 100%;
+    height: 100%;
+  }
+  .contact{
+    width: 60px;
+    z-index: 20;
+    top: 15em;
+    right: 1em;
+    border-radius: 8px;
+}
+.contact-icon{
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+.contact-icon:hover{
+    filter: none;
+}
+  iframe{
+    border-radius: 30px;
+  }
+  div{
+    color: aliceblue;
+  }
+  i{
+    font-size: 50px;
+    color: aliceblue;
+  }
+  .text-footer{
+    font-size: 0.8em;
+}
+.link-footer{
+    font-size: 1em;
+    color: #0B3D91
+}
+.link-footer:hover{
+    color: white
+}
